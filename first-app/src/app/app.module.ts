@@ -7,13 +7,17 @@ import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
 import {ServerComponent} from "./server/server.component";
 import { ServersComponent } from './servers/servers.component';
+import { AllertMessageComponent } from './allert-message/allert-message.component';
+import { SuccessMessageComponent } from './success-message/success-message.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    AllertMessageComponent,
+    SuccessMessageComponent
   ],
   imports: [
     BrowserModule,
